@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,13 +15,13 @@ namespace Sql
             MySqlConnection conn;
             string myConnectionString;
 
-            myConnectionString = "server=localhost;uid=root;pwd=123abc;database=app;port=3306";
+            myConnectionString = "server=localhost;uid=root;pwd=putpasswordhere;database=app;port=3306";
             try
             {
                 conn = new MySqlConnection();
                 conn.ConnectionString = myConnectionString;
-                conn.Open();
-                Console.WriteLine("Made Connection");
+                SQL hi = new SQL(conn);
+                Console.WriteLine(hi.Login("users", "Hi123@gmail.com", "123abc"));
             }
             catch (MySqlException ex)
             {
