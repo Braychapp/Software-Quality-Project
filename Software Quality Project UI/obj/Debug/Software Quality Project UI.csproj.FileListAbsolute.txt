@@ -1,0 +1,22 @@
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\bin\Debug\Software Quality Project UI.exe.config
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\bin\Debug\Software Quality Project UI.exe
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\bin\Debug\Software Quality Project UI.pdb
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI.csproj.AssemblyReference.cache
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\App.g.cs
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI_MarkupCompile.cache
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI_MarkupCompile.lref
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI.g.resources
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software_Quality_Project_UI.Properties.Resources.resources
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI.csproj.GenerateResource.cache
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI.csproj.CoreCompileInputs.cache
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI.exe
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Software Quality Project UI.pdb
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Admin_Login.g.cs
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Buyer_Login.g.cs
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Planner_Login.g.cs
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Admin_Login.baml
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Buyer_Login.baml
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\Planner_Login.baml
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\mainwindow.g.cs
+C:\Users\brayc\OneDrive\Desktop\SET SEMESTER 3\SOFTWARE QUALITY\Software Quality Project UI\obj\Debug\mainwindow.baml
