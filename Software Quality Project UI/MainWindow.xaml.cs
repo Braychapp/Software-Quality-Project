@@ -24,5 +24,26 @@ namespace Software_Quality_Project_UI
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Buyer_Login BuyerWindow = new Buyer_Login();
+            this.Close();
+            BuyerWindow.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Planner_Login BuyerWindow = new Planner_Login();
+            this.Close();
+            BuyerWindow.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Admin_Login BuyerWindow = new Admin_Login();
+            this.Close();
+            BuyerWindow.Show();
+        }
     }
 }

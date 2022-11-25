@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Software_Quality_Project_UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" ResizeMode="NoResize" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Omnicorp Shipping Handling and Transportation Login" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Button Content="Buyer" HorizontalAlignment="Left" Margin="129,0,0,0" VerticalAlignment="Center" FontSize="36" Width="120" Click="Button_Click"/>
+        <Button Content="Admin" HorizontalAlignment="Left" Margin="551,0,0,0" VerticalAlignment="Center" FontSize="36" Width="120" Click="Button_Click_2"/>
+        <Button Content="Planner" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Width="130" Click="Button_Click_1"/>
     </Grid>
 </Window>
