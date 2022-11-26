@@ -11,5 +11,7 @@
         <Button Content="Buyer" HorizontalAlignment="Left" Margin="129,0,0,0" VerticalAlignment="Center" FontSize="36" Width="120" Click="Button_Click"/>
         <Button Content="Admin" HorizontalAlignment="Left" Margin="551,0,0,0" VerticalAlignment="Center" FontSize="36" Width="120" Click="Button_Click_2"/>
         <Button Content="Planner" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Width="130" Click="Button_Click_1"/>
+        <Button Content="Register" HorizontalAlignment="Left" Margin="590,341,0,0" VerticalAlignment="Top" FontSize="36" Width="164" Click="Create_Account"/>
+        <Label Content="If you don't have an account: " HorizontalAlignment="Left" Margin="272,347,0,0" VerticalAlignment="Top" FontSize="22"/>
     </Grid>
 </Window>

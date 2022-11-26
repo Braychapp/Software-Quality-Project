@@ -45,5 +45,12 @@ namespace Software_Quality_Project_UI
             this.Close();
             BuyerWindow.Show();
         }
+
+        private void Create_Account(object sender, RoutedEventArgs e)
+        {
+            Register_window register = new Register_window();
+            this.Close();
+            register.Show();
+        }
     }
 }

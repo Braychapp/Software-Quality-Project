@@ -9,7 +9,7 @@
         
     <Grid>
         <Label Content="Planner Login" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" FontSize="22"/>
-        <TextBox x:Name="userName"  HorizontalAlignment="Left" Margin="234,156,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="341" Height="37" FontSize="22"/>
+        <TextBox x:Name="userName"  HorizontalAlignment="Left" Margin="234,156,0,0" TextWrapping="Wrap" Text="Email Address" VerticalAlignment="Top" Width="341" Height="37" FontSize="22"/>
         <PasswordBox x:Name="Password"  HorizontalAlignment="Left" Margin="234,217,0,0" VerticalAlignment="Top" Width="341" Height="37" FontSize="22"/>
         <Button Content="Login" HorizontalAlignment="Center" Margin="0,301,0,0" VerticalAlignment="Top" FontSize="22" Height="40" Width="104" Click="Login_Click"/>
         <Button Content="Back" HorizontalAlignment="Left" Margin="58,49,0,0" VerticalAlignment="Top" FontSize="22" Height="40" Width="104" Click="Button_Click"/>
