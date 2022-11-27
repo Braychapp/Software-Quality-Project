@@ -1,0 +1,47 @@
+﻿<Window x:Class="PlannerUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlannerUI"
+        mc:Ignorable="d"
+        Title="Planner window" Height="450" Width="800">
+    <Grid Margin="0,0,691,405">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="69*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="1" Margin="140,57,-334,-77" Grid.Row="1" TextWrapping="Wrap"><Run Language="en-ca" Text="Display the received orders from the Buyer"/></TextBlock>
+        <Button Content="Received Orders" Margin="407,55,-469,-77" Click="received_orders_click" Grid.Row="1" Grid.Column="1"/>
+
+        <TextBlock Grid.Column="1" Margin="76,144,-334,-163" Grid.Row="1" TextWrapping="Wrap" Text="Select carriers from targeted cities to complete the order"/>
+        <Button Content="Add Trips for Carriers" Margin="407,144,-469,-163" Grid.Column="1" Grid.Row="1" Click="add_trips_click"/>
+
+        <Button Content="Confirm Orders" Margin="407,209,-469,-231" Grid.Column="1" Grid.Row="1" Click="confirm_order_click"/>
+        <TextBlock Grid.Column="1" Margin="202,210,-333,-229" Grid.Row="1" TextWrapping="Wrap" Text="Confirm the order is completed"/>
+
+        <TextBlock Grid.Column="1" Margin="105,280,-333,-299" Grid.Row="1" TextWrapping="Wrap" Text="Display a summary of active orders in status screen"/>
+        <Button Content="Display Active Orders" Margin="407,280,-469,-303" Grid.Column="1" Grid.Row="1" Click="active_orders_click"/>
+
+
+        <Button Content="Generate Summary" Margin="407,354,-469,-376" Grid.Column="1" Grid.Row="1" Click="generate_summary_click"/>
+        <TextBlock Grid.Column="1" Margin="50,356,-334,-376" Grid.Row="1" TextWrapping="Wrap" Text="Generate a summary report for all data or the past two weeks"/>
+        <RadioButton Content="All data" Margin="543,366,-555,-376" Grid.Column="1" Grid.Row="1" />
+        <RadioButton Content="Last Two Weeks" Margin="617,368,-670,-392" Grid.Column="1" Grid.Row="1" RenderTransformOrigin="0.5,0.5" >
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.236"/>
+                    <RotateTransform Angle="0.565"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+
+
+    </Grid>
+</Window>
