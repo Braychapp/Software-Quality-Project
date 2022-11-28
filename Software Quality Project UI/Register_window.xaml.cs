@@ -1,6 +1,6 @@
-﻿using Sql;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -15,6 +15,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Sql;
+using MySql.Data.MySqlClient;
+using MySqlX.XDevAPI.Relational;
+
 
 namespace Software_Quality_Project_UI
 {
@@ -52,6 +56,7 @@ namespace Software_Quality_Project_UI
             if(nameRegex.IsMatch(firstName.Text))
             {
                 firstNameOK = true;
+                invalidFirstName.Visibility= Visibility.Hidden;
             }
             else
             {
@@ -64,6 +69,7 @@ namespace Software_Quality_Project_UI
             if(nameRegex.IsMatch(lastName.Text))
             {
                 lastNameOK = true;
+                invalidLastName.Visibility= Visibility.Hidden;
             }
             else
             {
@@ -76,6 +82,7 @@ namespace Software_Quality_Project_UI
             if (emailRegex.IsMatch(email.Text))
             {
                 emailOK = true;
+                invalidEmail.Visibility= Visibility.Hidden;
             }
             else
             {
@@ -87,6 +94,7 @@ namespace Software_Quality_Project_UI
             //checking if the passwords entered match
             if (pass == confirmPass)
             {
+                passNotMatch.Visibility = Visibility.Hidden;
                 passMatch = true;
             }
             else
@@ -95,11 +103,12 @@ namespace Software_Quality_Project_UI
                 passMatch = false;
             }
 
-            string accountType;
+            string accountType = null;
 
             if (userAccount.IsChecked == false && driverAccount.IsChecked == false)
             {
                 //if both of these ae not checked the account can't be created the user must select one
+                invalidAccountType.Visibility= Visibility.Visible;
                 driverORuser = false;
             }
             else
@@ -108,10 +117,12 @@ namespace Software_Quality_Project_UI
                 if(userAccount.IsChecked == true)
                 {
                     accountType = "user";
+                    invalidAccountType.Visibility = Visibility.Hidden;
                 }
                 if(driverAccount.IsChecked == true)
                 {
                     accountType = "driver";
+                    invalidAccountType.Visibility = Visibility.Hidden;
                 }
             }
 
@@ -125,10 +136,10 @@ namespace Software_Quality_Project_UI
                 string data = firstName.Text + ", " + lastName.Text + ", " + email.Text + ", " + pass + ", " + "false";
 
 
-                //PLEASE HELP WITH THESE 2 LINES THEY ARE NOT WORKING FOR SOME REASON
-                SQL sqlConnection = new SQL();
+               
+                MySqlConnection conn = new MySqlConnection(); //creating a new connection
+                SQL sqlConnection = new SQL(conn);
                 sqlConnection.Register(accountType, email.Text, data);
-                /////////////////////////////////////////////////////////////////
             }
 
             //format the data for users and drivers like this:
