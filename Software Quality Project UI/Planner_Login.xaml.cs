@@ -31,6 +31,9 @@ namespace Software_Quality_Project_UI
             string pass = Password.Password;
             string test_uName = "Testing123";
             string test_pass = "PASSWORD123";
+            string validUName = "";
+            string validPass = "";
+            string message = "";
 
             bool goodName = false;
             bool goodPass = false;
@@ -41,17 +44,35 @@ namespace Software_Quality_Project_UI
             {
                 goodName = true;
             }
+            else
+            {
+                validUName = "Incorrect Username";
+            }
 
             if (pass == test_pass) //if password is good
             {
                 goodPass = true;
             }
+            else
+            {
+                validPass = "Incorrect Password";
+            }
+
+            message = validUName + "\n" + validPass;
+
 
             if (goodName && goodPass) //if both of them are good
             {
-                MessageBox.Show("username and pass ok");
+                PlannerMenu plannerMenu = new PlannerMenu();
+                this.Close();
+                plannerMenu.Show();
                 //go to buyer page
             }
+            else
+            {
+                MessageBox.Show(message);
+            }
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
