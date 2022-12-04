@@ -1,0 +1,17 @@
+﻿<Window x:Class="Software_Quality_Project_UI.AcceptOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Software_Quality_Project_UI"
+        mc:Ignorable="d"
+        Title="AcceptOrder" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="selectDriver" HorizontalAlignment="Center" Margin="0,121,0,0" VerticalAlignment="Top" Width="176" Height="43" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Label Content="Select A Relevant Driver" HorizontalAlignment="Center" Margin="0,46,0,0" VerticalAlignment="Top" Height="44" Width="250" FontSize="22"/>
+        <TextBox x:Name="driverInfo" HorizontalAlignment="Center" IsReadOnly="True" Margin="0,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" Height="85"/>
+        <Label Content="Driver Information" HorizontalAlignment="Center" VerticalAlignment="Center" Height="44" Width="196" FontSize="22"/>
+        <Button x:Name="SendToPlanner" Content="Send To Planner" HorizontalAlignment="Left" Margin="104,189,0,0" VerticalAlignment="Top" Height="47" Width="123" Click="SendToPlanner_Click"/>
+
+    </Grid>
+</Window>

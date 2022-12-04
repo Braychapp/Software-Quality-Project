@@ -93,18 +93,58 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AcceptCustomers.xaml.cs">
+      <DependentUpon>AcceptCustomers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptOrder.xaml.cs">
+      <DependentUpon>AcceptOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMenu.xaml.cs">
+      <DependentUpon>AdminMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuyerMenu.xaml.cs">
+      <DependentUpon>BuyerMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BuyerMenuBase.cs" />
+    <Compile Include="EditConfig.xaml.cs">
+      <DependentUpon>EditConfig.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="menuOption.cs" />
     <Compile Include="PlannerMenu.xaml.cs">
       <DependentUpon>PlannerMenu.xaml</DependentUpon>
     </Compile>
     <Compile Include="Register_window.xaml.cs">
       <DependentUpon>Register_window.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Review_Customers.xaml.cs">
+      <DependentUpon>Review_Customers.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ToVisibilty.cs" />
+    <Page Include="AcceptCustomers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AcceptOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Admin_Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="BuyerMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Buyer_Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditConfig.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -138,6 +178,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Review_Customers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Planner_Login.xaml.cs">
@@ -165,6 +209,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="TMS.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

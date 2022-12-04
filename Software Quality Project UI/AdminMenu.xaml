@@ -1,0 +1,18 @@
+﻿<Window x:Class="Software_Quality_Project_UI.AdminMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Software_Quality_Project_UI"
+        mc:Ignorable="d"
+        Title="AdminMenu" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Go_To_Config" Content="Go To Config" HorizontalAlignment="Left" Margin="110,0,0,0" VerticalAlignment="Center" Height="51" Width="152" Click="Go_To_Config_Click"/>
+        <Label Content="Access Config Options" HorizontalAlignment="Left" Margin="72,129,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="Admin Menu" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="58,49,0,0" VerticalAlignment="Top" FontSize="22" Height="40" Width="104" Click="Button_Click"/>
+        <Label Content="Backup Local Database" HorizontalAlignment="Left" Margin="507,129,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Button x:Name="BackupDatabase" Content="Backup Database" HorizontalAlignment="Left" VerticalAlignment="Center" Height="51" Width="152" Click="BackupDatabase_Click" Margin="547,0,0,0"/>
+
+    </Grid>
+</Window>

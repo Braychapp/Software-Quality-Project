@@ -1,0 +1,14 @@
+﻿<Window x:Class="Software_Quality_Project_UI.Review_Customers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Software_Quality_Project_UI"
+        mc:Ignorable="d"
+        Title="Review_Customers" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="ExistingCustomers" IsReadOnly="True" HorizontalAlignment="Left" Margin="74,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="635" Height="318"/>
+        <Label Content="Existing Customers" HorizontalAlignment="Left" Margin="295,23,0,0" VerticalAlignment="Top" FontSize="22"/>
+
+    </Grid>
+</Window>

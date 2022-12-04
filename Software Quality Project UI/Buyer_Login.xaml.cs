@@ -29,8 +29,8 @@ namespace Software_Quality_Project_UI
             //compare the username and their password to the username and password from the server
             string uName = userName.Text;
             string pass = Password.Password;
-            string test_uName = "Testing123";
-            string test_pass = "PASSWORD123";
+            string test_uName = "1";
+            string test_pass = "1";
             string validUName = "";
             string validPass = "";
             string message = "";
@@ -63,7 +63,9 @@ namespace Software_Quality_Project_UI
 
             if (goodName && goodPass) //if both of them are good
             {
-                MessageBox.Show("username and pass ok");
+                BuyerMenu buyerMenu = new BuyerMenu();
+                this.Close();
+                buyerMenu.Show();
                 //go to buyer page
             }
             else
