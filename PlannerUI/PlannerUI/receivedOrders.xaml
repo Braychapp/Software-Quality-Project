@@ -1,0 +1,18 @@
+﻿<Window x:Class="PlannerUI.receivedOrders"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlannerUI"
+        mc:Ignorable="d"
+        Title="receivedOrders" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="64,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="en-ca" Text="Below are all the orders that are received from the buyer"/></TextBlock>
+
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}"  RenderTransformOrigin="0.152,0.437" Margin="64,64,400,87"/>
+        <Button Content="Navigate to Planner Menu" HorizontalAlignment="Left" Margin="64,10,0,0" VerticalAlignment="Top" Height="29" Width="149" Click="Button_Click"/>
+
+
+
+    </Grid>
+</Window>

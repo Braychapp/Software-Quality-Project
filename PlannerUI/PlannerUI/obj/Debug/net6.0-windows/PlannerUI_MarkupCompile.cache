@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\bakr2\OneDrive - Conestoga College\Virtual Studio\3rd Term\SQ\Software-Quality-Project\PlannerUI\PlannerUI\App.xaml
-11407045341
+62061742309
 
-3-1233169557
+8-830112567
 194-200944676
-MainWindow.xaml;
+AddTrips.xaml;ConfirmOrder.xaml;DisplayActiveOrders.xaml;GenerateSummary.xaml;MainWindow.xaml;receivedOrders.xaml;
 
 False
 
