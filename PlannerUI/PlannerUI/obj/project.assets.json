@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bakr2\\OneDrive - Conestoga College\\Virtual Studio\\3rd Term\\SQ\\Software-Quality-Project\\PlannerUI\\PlannerUI\\PlannerUI.csproj",
+      "projectUniqueName": "C:\\Users\\bakr2\\Downloads\\Software-Quality-Project-main\\Software-Quality-Project-main\\PlannerUI\\PlannerUI\\PlannerUI.csproj",
       "projectName": "PlannerUI",
-      "projectPath": "C:\\Users\\bakr2\\OneDrive - Conestoga College\\Virtual Studio\\3rd Term\\SQ\\Software-Quality-Project\\PlannerUI\\PlannerUI\\PlannerUI.csproj",
+      "projectPath": "C:\\Users\\bakr2\\Downloads\\Software-Quality-Project-main\\Software-Quality-Project-main\\PlannerUI\\PlannerUI\\PlannerUI.csproj",
       "packagesPath": "C:\\Users\\bakr2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bakr2\\OneDrive - Conestoga College\\Virtual Studio\\3rd Term\\SQ\\Software-Quality-Project\\PlannerUI\\PlannerUI\\obj\\",
+      "outputPath": "C:\\Users\\bakr2\\Downloads\\Software-Quality-Project-main\\Software-Quality-Project-main\\PlannerUI\\PlannerUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

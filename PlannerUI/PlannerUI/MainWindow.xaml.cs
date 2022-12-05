@@ -1,4 +1,12 @@
-﻿using System;
+﻿/* 
+* Filename: MainWindo.xaml.cd
+* Project: Software Quality TMS Milestone
+* Author: Bakr Jasim
+* Date: December 05, 2022
+* Description: This file is for any functions related to the main window of the planner UI
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +33,10 @@ namespace PlannerUI
             InitializeComponent();
         }
 
+        /*
+        * Function: received_orders_click
+        * Description:This function displays the received order to the planner
+        */
         private void received_orders_click(object sender, RoutedEventArgs e)
         {
             receivedOrders received = new receivedOrders();
@@ -33,6 +45,10 @@ namespace PlannerUI
 
         }
 
+        /*
+        * Function: add_trips_click
+        * Description:This function displays the window where planner can add trips
+        */
         private void add_trips_click(object sender, RoutedEventArgs e)
         {
             AddTrips add = new AddTrips();
@@ -40,6 +56,10 @@ namespace PlannerUI
             add.Show();
         }
 
+        /*
+        * Function: confirm_order_click
+        * Description:This function changes windows so planner can select and confirm orders
+        */
         private void confirm_order_click(object sender, RoutedEventArgs e)
         {
             ConfirmOrder confirm = new ConfirmOrder();
@@ -47,6 +67,10 @@ namespace PlannerUI
             confirm.Show();
         }
 
+        /*
+        * Function: active_orders_click
+        * Description:This function displays the active orders to the planner
+        */
         private void active_orders_click(object sender, RoutedEventArgs e)
         {
             DisplayActiveOrders active = new DisplayActiveOrders();
@@ -54,6 +78,10 @@ namespace PlannerUI
             active.Show();
         }
 
+        /*
+        * Function: generate_summary_click
+        * Description:this funciton generates the summary report of order for the planner
+        */
         private void generate_summary_click(object sender, RoutedEventArgs e)
         {
             GenerateSummary generateSummary = new GenerateSummary();

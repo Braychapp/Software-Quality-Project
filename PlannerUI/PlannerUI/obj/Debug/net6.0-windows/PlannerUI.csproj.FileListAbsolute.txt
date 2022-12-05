@@ -60,3 +60,34 @@ C:\Users\bakr2\OneDrive - Conestoga College\Virtual Studio\3rd Term\SQ\Software-
 C:\Users\bakr2\OneDrive - Conestoga College\Virtual Studio\3rd Term\SQ\Software-Quality-Project\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\DisplayActiveOrders.baml
 C:\Users\bakr2\OneDrive - Conestoga College\Virtual Studio\3rd Term\SQ\Software-Quality-Project\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\GenerateSummary.baml
 C:\Users\bakr2\OneDrive - Conestoga College\Virtual Studio\3rd Term\SQ\Software-Quality-Project\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\receivedOrders.baml
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\bin\Debug\net6.0-windows\PlannerUI.exe
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\bin\Debug\net6.0-windows\PlannerUI.deps.json
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\bin\Debug\net6.0-windows\PlannerUI.runtimeconfig.json
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\bin\Debug\net6.0-windows\PlannerUI.dll
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\bin\Debug\net6.0-windows\PlannerUI.pdb
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.csproj.AssemblyReference.cache
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\AddTrips.g.cs
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\ConfirmOrder.g.cs
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\DisplayActiveOrders.g.cs
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\GenerateSummary.g.cs
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\receivedOrders.g.cs
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI_MarkupCompile.cache
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI_MarkupCompile.lref
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\AddTrips.baml
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\ConfirmOrder.baml
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\DisplayActiveOrders.baml
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\GenerateSummary.baml
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\receivedOrders.baml
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.g.resources
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.AssemblyInfoInputs.cache
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.AssemblyInfo.cs
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.csproj.CoreCompileInputs.cache
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.dll
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\refint\PlannerUI.dll
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.pdb
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\PlannerUI.genruntimeconfig.cache
+C:\Users\bakr2\Downloads\Software-Quality-Project-main\Software-Quality-Project-main\PlannerUI\PlannerUI\obj\Debug\net6.0-windows\ref\PlannerUI.dll

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/* 
+* Filename: GenerateSummaryReport.cs
+* Project: Software Quality TMS Milestone
+* Author: Bakr Jasim
+* Date: December 05, 2022
+* Description: This the UI logic for generating the summary report
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,11 +32,10 @@ namespace PlannerUI
             InitializeComponent();
         }
 
-        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
+        /*
+        * Function: Button_Click
+        * Description:This function is navigaes back to the mainwindow screen of the planner
+        */
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();

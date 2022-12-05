@@ -1,4 +1,11 @@
-﻿<Window x:Class="PlannerUI.MainWindow"
+﻿<!--
+* Filename: MainWindow.xaml
+* Project: Software Quality TMS Milestone
+* Author: Bakr Jasim
+* Date: December 05, 2022
+* Description: This the UI for the mainwndow of the Planner role
+-->
+<Window x:Class="PlannerUI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
