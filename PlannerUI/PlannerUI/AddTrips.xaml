@@ -1,0 +1,20 @@
+﻿<Window x:Class="PlannerUI.AddTrips"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlannerUI"
+        mc:Ignorable="d"
+        Title="AddTrips" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="299*"/>
+            <RowDefinition Height="135*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="70,44,0,0" TextWrapping="Wrap" Text="Select Carriers from targeted cities:" VerticalAlignment="Top"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="70,65,459,27"/>
+        <Button Content="Select" RenderTransformOrigin="-3.057,-1.746" Margin="70,299,625,84" Grid.RowSpan="2"/>
+        <Button Click="Button_Click" Content="Navigate to Planner Menu" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="29" Width="149"/>
+
+    </Grid>
+</Window>

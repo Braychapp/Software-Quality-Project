@@ -27,27 +27,38 @@ namespace PlannerUI
 
         private void received_orders_click(object sender, RoutedEventArgs e)
         {
+            receivedOrders received = new receivedOrders();
+            this.Close();
+            received.Show();
 
         }
 
         private void add_trips_click(object sender, RoutedEventArgs e)
         {
-
+            AddTrips add = new AddTrips();
+            this.Close();
+            add.Show();
         }
 
         private void confirm_order_click(object sender, RoutedEventArgs e)
         {
-
+            ConfirmOrder confirm = new ConfirmOrder();
+            this.Close();
+            confirm.Show();
         }
 
         private void active_orders_click(object sender, RoutedEventArgs e)
         {
-
+            DisplayActiveOrders active = new DisplayActiveOrders();
+            this.Close();
+            active.Show();
         }
 
         private void generate_summary_click(object sender, RoutedEventArgs e)
         {
-
+            GenerateSummary generateSummary = new GenerateSummary();
+            this.Close();
+            generateSummary.Show();
         }
     }
 }

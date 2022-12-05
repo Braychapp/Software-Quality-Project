@@ -15,32 +15,21 @@
             <ColumnDefinition Width="40*"/>
             <ColumnDefinition Width="69*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Column="1" Margin="140,57,-334,-77" Grid.Row="1" TextWrapping="Wrap"><Run Language="en-ca" Text="Display the received orders from the Buyer"/></TextBlock>
-        <Button Content="Received Orders" Margin="407,55,-469,-77" Click="received_orders_click" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock Grid.Column="1" Margin="139,67,-333,-88" Grid.Row="1" TextWrapping="Wrap"><Run Language="en-ca" Text="Display the received orders from the Buyer"/></TextBlock>
+        <Button Content="Received Orders" Margin="407,67,-469,-88" Click="received_orders_click" Grid.Row="1" Grid.Column="1"/>
 
-        <TextBlock Grid.Column="1" Margin="76,144,-334,-163" Grid.Row="1" TextWrapping="Wrap" Text="Select carriers from targeted cities to complete the order"/>
-        <Button Content="Add Trips for Carriers" Margin="407,144,-469,-163" Grid.Column="1" Grid.Row="1" Click="add_trips_click"/>
+        <TextBlock Grid.Column="1" Margin="75,136,-333,-146" Grid.Row="1" TextWrapping="Wrap" Text="Select carriers from targeted cities to complete the order" Height="25"/>
+        <Button Content="Add Trips for Carriers" Margin="407,130,-469,-153" Grid.Column="1" Grid.Row="1" Click="add_trips_click" Height="25"/>
 
-        <Button Content="Confirm Orders" Margin="407,209,-469,-231" Grid.Column="1" Grid.Row="1" Click="confirm_order_click"/>
-        <TextBlock Grid.Column="1" Margin="202,210,-333,-229" Grid.Row="1" TextWrapping="Wrap" Text="Confirm the order is completed"/>
+        <Button Content="Confirm Orders" Margin="407,194,-469,-217" Grid.Column="1" Grid.Row="1" Click="confirm_order_click" Height="25"/>
+        <TextBlock Grid.Column="1" Margin="202,200,-333,-210" Grid.Row="1" TextWrapping="Wrap" Text="Confirm the order is completed" Height="25"/>
 
-        <TextBlock Grid.Column="1" Margin="105,280,-333,-299" Grid.Row="1" TextWrapping="Wrap" Text="Display a summary of active orders in status screen"/>
-        <Button Content="Display Active Orders" Margin="407,280,-469,-303" Grid.Column="1" Grid.Row="1" Click="active_orders_click"/>
+        <TextBlock Grid.Column="1" Margin="110,275,-338,-298" Grid.Row="1" TextWrapping="Wrap" Text="Display a summary of active orders in status screen"/>
+        <Button Content="Display Active Orders" Margin="407,269,-469,-292" Grid.Column="1" Grid.Row="1" Click="active_orders_click" Height="25"/>
 
 
-        <Button Content="Generate Summary" Margin="407,354,-469,-376" Grid.Column="1" Grid.Row="1" Click="generate_summary_click"/>
-        <TextBlock Grid.Column="1" Margin="50,356,-334,-376" Grid.Row="1" TextWrapping="Wrap" Text="Generate a summary report for all data or the past two weeks"/>
-        <RadioButton Content="All data" Margin="543,366,-555,-376" Grid.Column="1" Grid.Row="1" />
-        <RadioButton Content="Last Two Weeks" Margin="617,368,-670,-392" Grid.Column="1" Grid.Row="1" RenderTransformOrigin="0.5,0.5" >
-            <RadioButton.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleY="0.236"/>
-                    <RotateTransform Angle="0.565"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </RadioButton.RenderTransform>
-        </RadioButton>
+        <Button Content="Generate Summary" Margin="407,342,-469,-365" Grid.Column="1" Grid.Row="1" Click="generate_summary_click" Height="25"/>
+        <TextBlock Grid.Column="1" Margin="54,343,-338,-365" Grid.Row="1" TextWrapping="Wrap" Text="Generate a summary report for all data or the past two weeks"/>
 
 
     </Grid>
